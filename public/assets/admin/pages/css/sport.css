@@ -1,0 +1,101 @@
+.aClogoBox{
+	    background-color: #fc6200;
+	    position: fixed;    
+	    width: 190px!important;
+    	height: 100%;
+        display: block;
+}
+.aClogoBox::after{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAAAPCAYAAAB3PJiyAAABmElEQVRYhe3YP08UQRjH8c9xwvmnucbGUJjYYoyNRgtKGqONoSfoG9DGDsMLMMHC3lJDp52JFHZgYYxUKmDIdVhgcSYbOY9iMIEDudlxuLCGb7PJzjzPPM8vzzw7s7WtaRcwjkncxrATYviF15jHu9rW9J7BUcxiCkODjqwi/MZzPEbrz8tesVq4hxtYHVRkFWINNwWNWrsH/lZ1S7i+8zwh8B7XsHjQ4GHb9zsm8OkIgqoaX3FL0ORA+vXBH7iLdsagqkZbEHHjsEmnIhx9wQyeZAjKRlGzvFlXdHJ420+jzliz43yjm8vlDD73mxT7ZX4mNNp/5ihFhKIT1sjEmpB7X2KFLPAoOZwBk60WQ85FzMQyZ8V5vE0KZxdjzY6RbAWzn0ady80sJb8g5BxF74G8H5fwEefKxVQ52riClViDsreXFdyXdfccO7rCgTtaRNKugS/wwP8pZhcP8bKsYep9+inuYD3R/jiyLuQ0l2Jctkf2Mryz+ASu4qLQP88m+tsUX+mncSZxnZ9CH/yGD3iDV8IfnSS2Ad5UVYZL0riAAAAAAElFTkSuQmCC) top no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    content: "";
+    display: block;
+}
+.aClogoBox .logoSVG {
+	
+	width: 60px;
+}
+.logoSVG {
+	height: 100%;
+	width: 50px;
+	fill: #fff;
+	margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: block;
+
+}
+.headerRightCTA {
+	height: 50px;
+	float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+	display: flex;
+}
+.headerCrossSale {
+	height: 28px;
+	border-right: 1px solid #474747;
+    margin-right: 10px;
+}
+.headerCrossSale a {
+	width: 32px;
+	height: 36px;
+    margin: 0 10px 0 0;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    fill: #6c6c6c;
+    transition: fill .3s ease-in-out;
+}
+a {
+	text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+	background: transparent;
+}
+.headerRightCTA>div {
+	display: flex;
+}
+#languagePC, .odds-options {
+	border-left: 0!important;
+}
+.odds-options {
+	position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.gearBtn.showOddsContent {
+	border: 2px solid #fc6200;
+}
+#languagePC a, .odds-options a {
+	margin-left: 0;
+}
+.circleIcon, .crossSellBtn {
+	padding: 4px;
+}
+.showCrossSellOptions, .showLanguageOptions, .showOddsContent {
+	border-color: #fc6200!important;
+}
+.circleIcon, .crossSellBtn {
+	    fill: #6c6c6c;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    background: #121212;
+    line-height: 1;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
